@@ -2,10 +2,6 @@ while True:
 
         num1 = float(input("Enter the first number: "))
         operation = input("Enter the operation ( +, -, /, ** or * ): ").strip()
-
-        if operation.lower() == "exit":
-            print("Exit")
-            break
         
         num2 = float(input("Enter the second number: "))
         if operation == "+":
